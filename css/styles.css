@@ -1,7 +1,10 @@
-body {                   /*common*/
+body {
+  /*common*/
   font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.5;
   color: #2e2f42;
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 .site-logo {
   font-family: 'Raleway';
@@ -25,42 +28,41 @@ letter-spacing: 0.02em;
   line-height: 1.5;
   text-decoration: none;
 }
-.header-link:hover {
-  color: #404bbf;
-  text-decoration: underline;
-}
+.header-link:hover,
 .header-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
-.header-list > li {
-  list-style-type: none;
-}
-.header-mail,
-.header-tel {
+
+.header-contact {
   color: #434455;
   font-weight: 400;
   font-size: 12px;
+  font-style: normal;
   letter-spacing: 0.04em;
   line-height: 1.5;
   text-decoration: none;
 }
 
-.header-list:hover,
-.header-list:focus {
+.header-contact:hover,
+.header-contact:focus {
   color: #404bbf;
-  text-decoration: underline; /*common end*/
+  /*common end*/
 }
-.title-hero {                   /*index*/
+.title-hero {
+  /*index*/
   color: #fff;
   background-color: #2e2f42;
   font-weight: bold;
   font-size: 56px;
-    line-height: 60px;
+  line-height: 1.08;
 }
 .button-hero {
   color: #fff;
   background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   display: flex;
@@ -71,46 +73,55 @@ letter-spacing: 0.02em;
   color: #cceeaa;
   background-color: #404bbf;
 }
-.advantages>li{ 
-list-style-type: none;  
-}
 
-.services-list{
-    list-style-type: none;
-}
-h2{
-    font-weight: bold;
-    font-size: 36px;
+h2 {
+  font-weight: bold;
+  font-size: 36px;
 }
 h3 {
-    font-weight: medium;
-    font-size: 20px;
+  font-weight: medium;
+  font-size: 20px;
 }
-p{
-    font-weight: regular;
-        font-size: 16px;
-        line-height: 1.5;
+p {
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 1.5;
 }
-.team-list{
-    list-style-type: none;          /*index end*/
+ul {
+  list-style-type: none;
 }
-.portfolio-buttons-list{          /*portfolio*/
-    list-style-type: none;
-}
-.portfolio-buttons{
-    color: #404BBF;
-        background: #F4F4FD;
-        display: flex;
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-        cursor: pointer;
+/*index end*/
+
+/*portfolio*/
+
+.portfolio-buttons {
+  color: #404bbf;
+  background: #f4f4fd;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .portfolio-buttons:hover,
 .portfolio-buttons:focus {
-    color: #fff;
-    background-color: #404bbf;
+  color: #fff;
+  background-color: #404bbf;
 }
-.footer-logo {                  /*common*/
+.portfolio-tiles a {
+  text-decoration: none;
+  color: #2e2f42;
+  line-height: 1.5;
+}
+
+.portfolio-tiles a:hover,
+.portfolio-tiles a:focus {
+  color: #404bbf;
+}
+.footer-logo {
+  /*common*/
   font-size: 16px;
   color: #fff;
   background-color: #2e2f42; /*delete*/
