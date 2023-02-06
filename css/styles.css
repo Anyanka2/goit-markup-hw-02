@@ -16,7 +16,7 @@ body {
   /*common*/
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: var(--overlay-navy-blue-modal);
+  color: var(--body-text-slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -34,7 +34,7 @@ body {
   color: var(--primary-brand-iris);
 }
 .header-link {
-  color: var(--overlay-navy-blue-modal);
+  color: var(--dark-navy-blue);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -65,14 +65,15 @@ body {
 } /*index*/
 .title-hero {
   color: var(--text-color-white);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.08;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .button-hero {
   color: var(--text-color-white);
   background-color: var(--primary-brand-iris);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -86,6 +87,7 @@ body {
   background-color: var(--pressed-state-ocean);
 }
 .advantages-list h3 {
+  color: var(--dark-navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -100,16 +102,29 @@ body {
 }
 .services > h2,
 .team > h2 {
-  font-weight: 700;
+  color: var(--dark-navy-blue);
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+    text-align: center;
 }
 .team h3 {
+  color: var(--dark-navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+}
+.team p{
+  text-align: center;
+}
+.team{
+  background: var(--light-mode-cloud);
+}
+.team li{
+  background: #fff;
 }
 /*index end*/
 
@@ -117,7 +132,7 @@ body {
 .portfolio-button {
   color: var(--pressed-state-ocean);
   background: var(--light-mode-cloud);
-  font-family: roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -149,17 +164,21 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.portfolio-tiles p {
+  color: var(--body-text-slate);
+
+}
 
 /*common*/
 .footer {
   background-color: var(--dark-navy-blue);
 }
 .footer-text {
-  color: var(--text-color-white);
+  color: var(--accent-cornflower);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .footer-logo {
-  font-size: 16px;
-  color: var(--text-color-white);
+  color: var(--light-mode-cloud);
+  line-height: 1.16;
 }
